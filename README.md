@@ -77,10 +77,10 @@ java -cp src com.shopping.Main
 
 ## 🎓 Academic Info
 
-**Course**: SET412:Design Patterns  
-**Supervised by**: Dr.Hossam Hawash
+**Course**: SET412: Design Patterns  
+**Supervised by**: Dr. Hossam Hawash  
 **Institution**: Egyptian Chinese University (ECU)  
-**Year**: 2025/2026
+**Academic Year**: 2025/2026
 
 ---
 
