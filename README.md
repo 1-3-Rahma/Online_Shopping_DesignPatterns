@@ -61,7 +61,7 @@ src/com/shopping/
 ## 🚀 How to Run
 ```bash
 # Clone repository
-git clone [https://github.com/your-username/online-shopping-system.git](https://github.com/1-3-Rahma/Online_Shopping_DesignPatterns.git)
+git clone https://github.com/1-3-Rahma/Online_Shopping_DesignPatterns.git
 
 # Navigate to project
 cd online-shopping-system
