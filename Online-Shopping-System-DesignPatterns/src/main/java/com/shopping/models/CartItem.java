@@ -1,5 +1,5 @@
 package com.shopping.models;
-
+// CartItems
 public class CartItem {
     private final Product product;
     private int quantity;
