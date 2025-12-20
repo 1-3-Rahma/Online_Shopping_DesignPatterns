@@ -1,12 +1,12 @@
 ---
 
-🛒 **Online Shopping System**
+ **Online Shopping System**
 
 A Java-based desktop e-commerce application demonstrating 7 Design Patterns using a modern Swing UI, developed for educational purposes.
 
 ---
 
-👥 **Team Members**
+ **Team Members**
 
 | Name                 | ID        | Email                                               |
 | -------------------- | --------- | --------------------------------------------------- |
@@ -19,7 +19,7 @@ A Java-based desktop e-commerce application demonstrating 7 Design Patterns usin
 
 ---
 
-📋 **About The Project**
+ **About The Project**
 
 This project is a desktop-based Online Shopping System implemented in Java using Swing.
 
@@ -29,7 +29,7 @@ The main goal of the project is to demonstrate the correct application of **Crea
 
 ---
 
-🎯 **Project Objectives**
+ **Project Objectives**
 
 * Apply Object-Oriented Design Principles in a real application
 * Demonstrate 7 Design Patterns covered in the course
@@ -43,7 +43,7 @@ The main goal of the project is to demonstrate the correct application of **Crea
 
 ---
 
-🎨 **Design Patterns Used**
+ **Design Patterns Used**
 
 | Module           | Owner         | Patterns                             | Purpose                             |
 | ---------------- | ------------- | ------------------------------------ | ----------------------------------- |
@@ -58,7 +58,7 @@ The main goal of the project is to demonstrate the correct application of **Crea
 
 ---
 
-👨‍💼 **Admin Features**
+ **Admin Features**
 
 * View all products in a sortable table
 * Add new products with dynamic category/type
@@ -68,7 +68,7 @@ The main goal of the project is to demonstrate the correct application of **Crea
 
 ---
 
-👤 **Customer Features**
+ **Customer Features**
 
 * Browse products with:
 
@@ -86,7 +86,7 @@ The main goal of the project is to demonstrate the correct application of **Crea
 
 ---
 
-🛠 **Tools and Technologies Used**
+ **Tools and Technologies Used**
 
 * Java SE
 * Java Swing (GUI)
@@ -97,7 +97,7 @@ The main goal of the project is to demonstrate the correct application of **Crea
 
 ---
 
-🚀 **How to Run the Project**
+ **How to Run the Project**
 
 🔹 **Using NetBeans (Recommended)**
 
@@ -201,7 +201,7 @@ online-shopping-system/
 
 ---
 
-🎓 **Academic Information**
+ **Academic Information**
 
 * **Course:** SET412 – Design Patterns
 * **Supervised by:** Dr. Hossam Hawash
