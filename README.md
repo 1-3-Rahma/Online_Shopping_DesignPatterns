@@ -1,141 +1,212 @@
-# 🛒 Online Shopping System
+---
 
-A Java-based e-commerce application demonstrating **7 Design Patterns** for educational purposes.
+🛒 **Online Shopping System**
+
+A Java-based desktop e-commerce application demonstrating 7 Design Patterns using a modern Swing UI, developed for educational purposes.
 
 ---
 
-## 👥 Team Members
+👥 **Team Members**
 
-| Name | ID | Email |
-|------|-----|-------|
-| Rahma Ali Bauomi | 192100170 | 192100170@ecu.edu.eg |
-| Reham Mohamed Asem | 192100089 | 192100089@ecu.edu.eg |
-| Merna Ahmed Mohamed | 192100144 | 192100144@ecu.edu.eg |
-| Fatemah Ahmed Farouk | 192100160 | 192100160@ecu.edu.eg |
-| Roaa Elemam Mohamed | 192100083 | 192100083@ecu.edu.eg |
-| Salma Ahmed Kamel | 192200136 | 192200136@ecu.edu.eg |
-
----
-
-## 📋 About The Project
-
-An online shopping system that allows users to:
-- Browse products
-- Manage shopping cart
-- Process payments
-- Complete orders
-
-Built to demonstrate **Creational, Structural, and Behavioral Design Patterns** in Java.
+| Name                 | ID        | Email                                               |
+| -------------------- | --------- | --------------------------------------------------- |
+| Rahma Ali Bauomi     | 192100170 | [192100170@ecu.edu.eg](mailto:192100170@ecu.edu.eg) |
+| Reham Mohamed Asem   | 192100089 | [192100089@ecu.edu.eg](mailto:192100089@ecu.edu.eg) |
+| Merna Ahmed Mohamed  | 192100144 | [192100144@ecu.edu.eg](mailto:192100144@ecu.edu.eg) |
+| Fatemah Ahmed Farouk | 192100160 | [192100160@ecu.edu.eg](mailto:192100160@ecu.edu.eg) |
+| Roaa Elemam Mohamed  | 192100083 | [192100083@ecu.edu.eg](mailto:192100083@ecu.edu.eg) |
+| Salma Ahmed Kamel    | 192200136 | [192200136@ecu.edu.eg](mailto:192200136@ecu.edu.eg) |
 
 ---
 
-## 🎨 Design Patterns Used
+📋 **About The Project**
 
-| Module | Owner | Patterns | Purpose |
-|--------|-------|----------|---------|
-| **Products** | Fatemah Ahmed | Factory Method, Singleton, Composite | Create and manage product catalog |
-| **Shopping Cart** | Merna Ahmed | Singleton, Command | Manage cart operations with undo |
-| **Payment** | Reham Mohamed | Factory Method, Adapter | Process multiple payment methods |
-| **Users** | Rahma Ali | Factory Method, Singleton | User authentication and roles |
-| **Orders** | Roaa Elemam | Builder, Chain of Responsibility | Build and validate orders |
-| **Integration** | Salma Ahmed | - | Project setup and integration |
+This project is a desktop-based Online Shopping System implemented in Java using Swing.
 
-**Total: 7 Design Patterns** (Factory Method, Singleton, Builder, Command, Chain of Responsibility, Adapter, Composite)
+It allows users to interact with the system dynamically through a graphical interface instead of static data. The application supports **Admin** and **Customer** roles and simulates real-world e-commerce workflows.
+
+The main goal of the project is to demonstrate the correct application of **Creational, Structural, and Behavioral Design Patterns** in a realistic software system.
 
 ---
 
-## 🏗️ Project Structure
-```
-src/com/shopping/
-├── Main.java                 [Salma]
-├── models/                   [Salma - Shared]
-├── products/                 [Fatemah]
-├── cart/                     [Merna]
-├── payment/                  [Reham]
-├── users/                    [Rahma]
-└── orders/                   [Roaa]
-```
+🎯 **Project Objectives**
+
+* Apply Object-Oriented Design Principles in a real application
+* Demonstrate 7 Design Patterns covered in the course
+* Build a dynamic, user-driven system (no static inputs)
+* Provide a modern, user-friendly UI
+* Simulate real-world shopping operations:
+
+  * Product management
+  * Cart operations
+  * Checkout and order history
 
 ---
 
-## 🚀 How to Run
-```bash
-# Clone repository
-git clone https://github.com/1-3-Rahma/Online_Shopping_DesignPatterns.git
+🎨 **Design Patterns Used**
 
-# Navigate to project
-cd online-shopping-system
+| Module           | Owner         | Patterns                             | Purpose                             |
+| ---------------- | ------------- | ------------------------------------ | ----------------------------------- |
+| Products         | Fatemah Ahmed | Factory Method, Singleton, Composite | Create, filter, and manage products |
+| Shopping Cart    | Merna Ahmed   | Singleton, Command                   | Manage cart actions with undo/redo  |
+| Payment          | Reham Mohamed | Factory Method, Adapter              | Handle multiple payment methods     |
+| Users            | Rahma Ali     | Factory Method, Singleton            | Authentication and user roles       |
+| Orders           | Roaa Elemam   | Builder, Chain of Responsibility     | Build and validate orders           |
+| Integration & UI | Salma Ahmed   | Bridge                               | Theme switching & UI integration    |
 
-# Compile
-javac src/com/shopping/**/*.java
-
-# Run
-java -cp src com.shopping.Main
-```
+**Total Design Patterns Used:** 7 Patterns — Factory Method, Singleton, Builder, Command, Chain of Responsibility, Adapter, Composite
 
 ---
 
-## 🎓 Academic Info
+👨‍💼 **Admin Features**
 
-**Course**: SET412: Design Patterns  
-**Supervised by**: Dr. Hossam Hawash  
-**Institution**: Egyptian Chinese University (ECU)  
-**Academic Year**: 2025/2026
+* View all products in a sortable table
+* Add new products with dynamic category/type
+* Edit selected product (Name, Price, Details)
+* Delete selected product with confirmation dialogs
+* **Pattern Angle:** Product management uses a Singleton `ProductManager`, ensuring that edits and deletions are reflected globally across the system.
 
 ---
 
-## **Project Structure**
+👤 **Customer Features**
+
+* Browse products with:
+
+  * Search
+  * Category filter
+  * Sorting options
+* Add products to shopping cart
+* Undo / Redo cart operations
+* Checkout using different payment methods
+* **Order History (My Orders):**
+
+  * View past orders (Order ID, Date, Total, Payment method)
+  * View order items
+* **Pattern Angle:** Orders are created using the Builder Pattern, then stored and displayed to the user, adding real-world functionality.
+
+---
+
+🛠 **Tools and Technologies Used**
+
+* Java SE
+* Java Swing (GUI)
+* FlatLaf (Modern UI styling)
+* Maven (Build & dependency management)
+* NetBeans IDE
+* Git & GitHub (Version control)
+
+---
+
+🚀 **How to Run the Project**
+
+🔹 **Using NetBeans (Recommended)**
+
+1. Extract the project ZIP
+2. Open NetBeans
+3. Click File → Open Project
+4. Select the project folder
+5. Wait for Maven dependencies to load
+6. Ensure the Main Class is set to: `com.shopping.Main`
+7. Click **Run Project**
+8. Maximize **The Window**
+
+---
+
+**Project Structure**
+
 ```
 online-shopping-system/
 │
-├── src/
-│   └── com/
-│       └── shopping/
-│           │
-│           ├── Main.java                               [Salma]
-│           │
-│           ├── models/                                 [Salma]
-│           │   ├── Product.java
-│           │   ├── User.java
-│           │   ├── CartItem.java
-│           │   ├── Order.java
-│           │   └── Payment.java
-│           │
-│           ├── products/                               [Fatemah]
-│           │   ├── ProductFactory.java                 (Factory Method)
-│           │   ├── Electronics.java
-│           │   ├── Clothing.java
-│           │   ├── Book.java
-│           │   └── ProductManager.java                 (Singleton)
-│           │
-│           ├── cart/                                   [Merna]
-│           │   ├── ShoppingCart.java                   (Singleton)
-│           │   ├── CartCommand.java
-│           │   ├── AddCommand.java                     (Command)
-│           │   └── RemoveCommand.java                  (Command)
-│           │
-│           ├── payment/                                [Reham]
-│           │   ├── PaymentMethod.java
-│           │   ├── CreditCard.java
-│           │   ├── PayPal.java
-│           │   ├── PaymentFactory.java                 (Factory Method)
-│           │   └── PaymentAdapter.java                 (Adapter)
-│           │
-│           ├── users/                                  [Rahma]
-│           │   ├── UserFactory.java                    (Factory Method)
-│           │   ├── Customer.java
-│           │   ├── Admin.java
-│           │   └── AuthManager.java                    (Singleton)
-│           │
-│           └── orders/                                 [Roaa]
-│               ├── OrderBuilder.java                   (Builder)
-│               ├── OrderValidator.java                 (Chain of Responsibility)
-│               ├── StockValidator.java
-│               └── PaymentValidator.java
+├── .gitignore
+├── pom.xml
 │
 ├── docs/
-│   ├── README.md
-│ 
+│   └── README.md
 │
-├── .gitignore
-└── pom.xml                                             [Salma]
+└── src/
+    └── main/
+        └── java/
+            └── com/
+                └── shopping/
+                    │
+                    ├── Main.java
+                    ├── util/Ids.java
+                    ├── models/
+                    │   ├── CartItem.java
+                    │   ├── Order.java
+                    │   ├── Payment.java
+                    │   ├── Product.java
+                    │   └── User.java
+                    ├── controllers/
+                    │   ├── AuthController.java
+                    │   ├── CartController.java
+                    │   ├── OrderController.java
+                    │   ├── PaymentController.java
+                    │   └── ProductController.java
+                    ├── cart/
+                    │   ├── AddCommand.java
+                    │   ├── CartCommand.java
+                    │   ├── RemoveCommand.java
+                    │   └── ShoppingCart.java
+                    ├── products/
+                    │   ├── Book.java
+                    │   ├── Clothing.java
+                    │   ├── Electronics.java
+                    │   ├── GenericProduct.java
+                    │   ├── ProductFactory.java
+                    │   └── ProductManager.java
+                    │   └── criteria/
+                    │       ├── AndCriteria.java
+                    │       ├── CategoryCriteria.java
+                    │       ├── CriteriaFactory.java
+                    │       ├── NameContainsCriteria.java
+                    │       ├── OrCriteria.java
+                    │       ├── PriceRangeCriteria.java
+                    │       ├── ProductCriteria.java
+                    │       └── SortFactory.java
+                    ├── payment/
+                    │   ├── CreditCard.java
+                    │   ├── LegacyGateway.java
+                    │   ├── PayPal.java
+                    │   ├── PaymentAdapter.java
+                    │   ├── PaymentFactory.java
+                    │   └── PaymentMethod.java
+                    ├── users/
+                    │   ├── Admin.java
+                    │   ├── AuthManager.java
+                    │   ├── Customer.java
+                    │   └── UserFactory.java
+                    ├── orders/
+                    │   ├── OrderBuilder.java
+                    │   ├── OrderValidator.java
+                    │   ├── PaymentValidator.java
+                    │   └── StockValidator.java
+                    └── ui/
+                        ├── AdminFrame.java
+                        ├── CustomerFrame.java
+                        ├── LoginFrame.java
+                        ├── components/Ui.java
+                        ├── models/
+                        │   ├── CartTableModel.java
+                        │   ├── OrderTableModel.java
+                        │   └── ProductTableModel.java
+                        └── theme/
+                            ├── DarkTheme.java
+                            ├── FlatLafThemeApplier.java
+                            ├── LightTheme.java
+                            ├── Theme.java
+                            ├── ThemeApplier.java
+                            └── ThemeManager.java
+```
+
+---
+
+🎓 **Academic Information**
+
+* **Course:** SET412 – Design Patterns
+* **Supervised by:** Dr. Hossam Hawash
+* **Institution:** Egyptian Chinese University (ECU)
+* **Academic Year:** 2025/2026
+
+---
+
