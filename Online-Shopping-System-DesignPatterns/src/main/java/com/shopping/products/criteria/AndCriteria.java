@@ -6,9 +6,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-/**
- * Composite (AND): all children must match.
- */
+
 public class AndCriteria implements ProductCriteria {
     private final List<ProductCriteria> children = new ArrayList<>();
 
@@ -29,3 +27,4 @@ public class AndCriteria implements ProductCriteria {
         return true;
     }
 }
+
