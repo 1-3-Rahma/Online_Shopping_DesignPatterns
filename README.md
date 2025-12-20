@@ -47,7 +47,7 @@ The main goal of the project is to demonstrate the correct application of **Crea
 | Products         | Fatemah Ahmed | Factory Method, Singleton, Composite | Create, filter, and manage products |
 | Shopping Cart    | Merna Ahmed   | Singleton, Command                   | Manage cart actions with undo/redo  |
 | Payment          | Reham Mohamed | Factory Method, Adapter              | Handle multiple payment methods     |
-| Users            | Rahma Ali     | Factory Method, Singleton            | Authentication and user roles       |
+| Users            | Rahma Ali     | Factory Method, Singleton            | user roles                          |
 | Orders           | Roaa Elemam   | Builder, Chain of Responsibility     | Build and validate orders           |
 | Integration & UI | Salma Ahmed   | Bridge                               | Theme switching & UI integration    |
 
@@ -96,7 +96,7 @@ The main goal of the project is to demonstrate the correct application of **Crea
 
  **How to Run the Project**
 
-🔹 **Using NetBeans (Recommended)**
+🔹 **Using NetBeans**
 
 1. Extract the project ZIP
 2. Open NetBeans
