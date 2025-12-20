@@ -1,5 +1,5 @@
 package com.shopping.models;
-
+// PaymentModel
 public class Payment {
     private final String methodName;
     private final double amount;
