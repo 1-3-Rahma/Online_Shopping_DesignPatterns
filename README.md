@@ -127,7 +127,11 @@ online-shopping-system/
                 └── shopping/
                     │
                     ├── Main.java
-                    ├── util/Ids.java
+                    ├── util/
+                    │   ├── Ids.java
+                    │   ├── Validators.java   
+                    │   ├── HashUtil.java      
+
                     ├── models/
                     │   ├── CartItem.java
                     │   ├── Order.java
@@ -178,6 +182,10 @@ online-shopping-system/
                     │   ├── OrderValidator.java
                     │   ├── PaymentValidator.java
                     │   └── StockValidator.java
+                    ├── persistence/
+                    │   ├── JsonDatabase.java  
+                    │   ├── UserRepository.java     
+                    │   ├── OrderRepository.java  
                     └── ui/
                         ├── AdminFrame.java
                         ├── CustomerFrame.java
