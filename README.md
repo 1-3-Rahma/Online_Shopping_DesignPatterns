@@ -1,10 +1,7 @@
----
+#  Online Shopping System
 
- **Online Shopping System**
+A Java-based desktop e-commerce application demonstrating **7 Design Patterns** using a modern Swing UI.
 
-A Java-based desktop e-commerce application demonstrating 7 Design Patterns using a modern Swing UI, developed for educational purposes.
-
----
 
  **Team Members**
 
