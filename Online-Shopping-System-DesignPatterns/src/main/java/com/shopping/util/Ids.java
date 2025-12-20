@@ -1,7 +1,7 @@
 package com.shopping.util;
 
 import java.util.UUID;
-
+// IDs
 public final class Ids {
     private Ids() {}
     public static String shortId(String prefix) {
