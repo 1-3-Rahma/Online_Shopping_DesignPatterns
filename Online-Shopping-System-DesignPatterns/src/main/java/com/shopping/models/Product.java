@@ -1,7 +1,7 @@
 package com.shopping.models;
 
 import java.util.Objects;
-
+// ProductModel
 public abstract class Product {
     private final String id;
     private final String name;
